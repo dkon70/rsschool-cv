@@ -1,0 +1,181 @@
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
+.main-container {
+    width: 1440px;
+    height: 2040px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.round {
+    position: relative;
+    border-radius: 100%;
+    width: 264px;
+    height: 264px;
+    margin-left: 208px;
+    margin-top: 168px;
+
+}
+
+.h2-header {
+    font-weight: 300;
+}
+
+.header-right {
+    position: relative;
+    margin-left: 648px;
+    top: -300px;
+    
+}
+
+.ul-location {
+    list-style-image: url(./img/Location.png);
+}
+
+.left-line {
+    position: absolute;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 47px;
+    margin-left: 168px;
+}
+
+.left-line-second {
+    position: relative;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 63px;
+}
+
+.left-line-third {
+    position: relative;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 47px;
+}
+
+.left-line-fourth {
+    position: relative;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 47px;
+}
+
+.right-line {
+    position: relative;
+
+    width: 624px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 138px;
+}
+
+.right-line-second {
+    position: relative;
+
+    width: 624px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 109px;
+}
+
+.right-line-third {
+    position: relative;
+
+    width: 624px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 216px;
+}
+
+.left-container {
+    position: absolute;
+    margin-left: 168px;
+    margin-top: -21px;
+}
+
+.right-container {
+    position: relative;
+    margin-left: 648px;
+    margin-right: 168px;
+    margin-top: -262px;
+
+}
+
+pre {
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+}
+
+footer {
+    position: relative;
+    top: 330px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img {
+    margin-left: 600px; 
+    padding-right: 0;
+}
+
+.nav-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    margin-right: 55px;
+}
+
+.nav-list p {
+    padding-left: 15px;
+}
+
+.nav-list a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
