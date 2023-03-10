@@ -50,6 +50,7 @@ img {
     position: relative;
     margin-left: 648px;
     top: -300px;
+    
 }
 
 .ul-location {
@@ -57,11 +58,40 @@ img {
 }
 
 .left-line {
+    position: absolute;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 47px;
+    margin-left: 168px;
+}
+
+.left-line-second {
     position: relative;
 
     width: 344px;
     height: 1px;
     background: #CCCCCC;
+    margin-top: 63px;
+}
+
+.left-line-third {
+    position: relative;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 47px;
+}
+
+.left-line-fourth {
+    position: relative;
+
+    width: 344px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 47px;
 }
 
 .right-line {
@@ -70,6 +100,25 @@ img {
     width: 624px;
     height: 1px;
     background: #CCCCCC;
+    margin-top: 138px;
+}
+
+.right-line-second {
+    position: relative;
+
+    width: 624px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 109px;
+}
+
+.right-line-third {
+    position: relative;
+
+    width: 624px;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 203px;
 }
 
 .left-container {
