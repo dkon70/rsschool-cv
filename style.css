@@ -153,6 +153,11 @@ footer {
     align-items: center;
 }
 
+.footer-img {
+    margin-left: 600px; 
+    padding-right: 0;
+}
+
 .nav-list {
     position: relative;
     display: flex;
